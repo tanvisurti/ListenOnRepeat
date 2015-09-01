@@ -1,0 +1,19 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "description": "Turn a YouTube link to a ListenOnRepeat Extension",
+   "icons": {
+      "128": "128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAksYl6+YtSpW+kCPlU5dZkp4GA5dJajWzDHuQdYrwl3l69RUA6JonpJ8sxmVq27tZN8rTTos/27C6PdnZq1aOCXxtPf/r8yEycsmAni93GSN4v2lXhLVDdjupLXEMRMZgWk717/XB0sFEJBis9lEJJY5dUVPCoCCbPUDisYT+O0QEl5PMjXFGo2R0bRyfRue6ezF5omADXTDLAvKT3H3CTalYUHT0q2Au5MMWJHgnzXxQX9LF8mc8GfImKElotmB+f29rZDiieTQtV9ZsbcTHcfVbeOnsUmGmeo+XdFOEHlfzlqNHXxrUuPi0/DIr2Um64/SsHM6Tn7/0qOq518ut4wIDAQAB",
+   "manifest_version": 2,
+   "name": "Listen On Repeat",
+   "page_action": {
+      "default_icon": "button.png",
+      "default_title": "ListenOnRepeat"
+   },
+   "permissions": [ "tabs", "webNavigation" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
